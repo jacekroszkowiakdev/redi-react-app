@@ -8,15 +8,15 @@ function App() {
 
     return (
         <>
-            <div>{<Header title="My React App" />}</div>
-            <h1>Created with vite!</h1>
+            <div>{<Header title="HEADER :-)" />}</div>
+            <h2>Created with vite!</h2>
             <div className="card">
                 <button onClick={() => setCount((count) => count + 1)}>
                     count is {count}
                 </button>
             </div>
 
-            <Footer companyName="Jacek Roszkowiak" year={2023} />
+            <Footer companyName="jacekroszkowiak_dev" year={2023} />
         </>
     );
 }
