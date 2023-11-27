@@ -17,7 +17,8 @@ header {
     height: 220px;
     justify-content: center;
     align-items: center;
-    background-color: azure;
+    background-image: url(../../assets/images/wet_sand.jpg);
+    object-fit: fill;
 }
 
 header h1 {
